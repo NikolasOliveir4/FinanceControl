@@ -1,0 +1,13 @@
+.form{
+    width: 400px;
+    height: 120px;
+    border: rgba(0, 0, 0, 0.534);
+    margin-top: 70px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+}

@@ -1,0 +1,27 @@
+article{  
+    display: flex;
+    width: 650px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+    
+    align-items: center;
+    background-color: rgb(192, 192, 192);
+    margin: 20px;
+
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.valor_pos{
+    
+    color: green;
+}
+.valor_neg{
+    
+    color: red;
+}
+

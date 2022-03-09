@@ -1,0 +1,69 @@
+{
+  "transacoes": [
+    {
+      "data": "08/03/2022",
+      "transf": "600",
+      "category": {
+        "id": "1",
+        "name": "Pix"
+      },
+      "id": 1
+    },
+    {
+      "data": "08/03/2022",
+      "transf": "400",
+      "category": {
+        "id": "3",
+        "name": "Saúde"
+      },
+      "id": 2
+    },
+    {
+      "data": "08/03/2022",
+      "transf": "4500",
+      "category": {
+        "id": "1",
+        "name": "Pix"
+      },
+      "id": 3
+    },
+    {
+      "data": "08/03/2022",
+      "transf": "600",
+      "category": {
+        "id": "3",
+        "name": "Saúde"
+      },
+      "id": 4
+    },
+    {
+      "data": "08/03/2022",
+      "transf": "40",
+      "category": {
+        "id": "2",
+        "name": "Venda"
+      },
+      "id": 5
+    }
+  ],
+  "categories_positivas": [
+    {
+      "id": 1,
+      "name": "Pix"
+    },
+    {
+      "id": 2,
+      "name": "Venda"
+    }
+  ],
+  "categories_negativas": [
+    {
+      "id": 3,
+      "name": "Saúde"
+    },
+    {
+      "id": 4,
+      "name": "Lazer"
+    }
+  ]
+}

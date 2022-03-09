@@ -1,0 +1,25 @@
+.menu{
+    list-style: none;
+    text-decoration: none;
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+    
+
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgba(19, 161, 243, 0.966);
+    cursor: pointer;    
+}
+
+button:hover{
+    background-color: rgba(8, 78, 119, 0.534);
+    color: rgb(202, 202, 202);
+}
+

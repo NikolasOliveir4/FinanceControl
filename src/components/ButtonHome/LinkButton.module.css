@@ -1,0 +1,18 @@
+.btn{
+    width: 125px;
+    height: 120px;
+    border: rgba(8, 78, 119, 0.534);
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color:black;
+
+    font-size: 25px;
+}
+
+.btn:hover{
+    background-color: white;
+}

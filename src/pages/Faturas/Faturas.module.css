@@ -1,0 +1,20 @@
+.faturas{
+    display: flex;
+    
+}
+.display{
+
+    margin: 40px;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+        
+
+}
+.column{
+    display: flex;
+    flex-direction: column-reverse;
+
+}

@@ -1,0 +1,19 @@
+.saldo{
+    width: 250px;
+    height: 200px;
+    border: rgba(8, 78, 119, 0.534);
+    background-color: white;
+    border-radius: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.saldo p{
+    font-size: 20px;
+    background: none;
+    
+}
