@@ -38,7 +38,10 @@ function Faturas(){
             </section>
             
             <div className={styles.display}>
-            {transf.length > 0 && 
+            
+            
+            
+            {transf.length > 0 ? 
             transf.map((transf) =>(
                 <div className={styles.column}>
                    {transf.category.id < 3 ?(
@@ -62,7 +65,7 @@ function Faturas(){
                 
                 
                 
-            ))}
+            )): <p> Não há faturas</p>}
             </div>
             
 

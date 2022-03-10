@@ -11,7 +11,6 @@ function ServiceForm({handleSubmit, btnText, e}){
     const [categories, setCategories] = useState([])
     const [message, setMessage] = useState()
     const [transf, setTransf] = useState({})
-    const [transacao, setTransacao] = useState({})
     const [type, setType] = useState()
     
     var data = new Date();
@@ -39,8 +38,13 @@ function ServiceForm({handleSubmit, btnText, e}){
     function submit(e){
         
         e.preventDefault()
-        handleSubmit(transacao)    
-       
+        if(transf.category == null || transf.transf == null){
+            setMessage('Preencha todos os campos')
+            setType('error')    
+        }
+       else{
+           handleSubmit(transf)    
+       }
     }
 
  
@@ -55,7 +59,7 @@ function ServiceForm({handleSubmit, btnText, e}){
 
     function handleCategory(e){
         
-        setTransacao({...transf, category:{
+        setTransf({...transf, category:{
             id: e.target.value,
             name: e.target.options[e.target.selectedIndex].text,
             },
@@ -72,7 +76,7 @@ function ServiceForm({handleSubmit, btnText, e}){
                 name='transf'
                 placeholder='Insira o valor total'
                 handleOnChange={handleChange}
-            />
+            />  
 
        
             <Select name='category_id' placeholder='Tipo da transação' options={categories} handleOnChange={handleCategory} value={transf.category ? transf.category.id : ''}/>
