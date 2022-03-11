@@ -1,41 +1,61 @@
 {
   "transacoes": [
     {
-      "data": "10/03/2022",
-      "transf": "4000",
+      "data": "11/03/2022",
+      "transf": "50",
       "category": {
-        "id": "2",
-        "name": "Venda"
+        "id": "1",
+        "name": "Pix"
       },
-      "tipo": "positiva",
       "id": 1
     },
     {
-      "data": "10/03/2022",
+      "data": "11/03/2022",
+      "transf": "40",
+      "category": {
+        "id": "1",
+        "name": "Pix"
+      },
+      "tipo": "positiva",
+      "id": 2
+    },
+    {
+      "data": "11/03/2022",
+      "transf": "30",
+      "category": {
+        "id": "1",
+        "name": "Pix"
+      },
+      "tipo": "positiva",
+      "id": 3
+    },
+    {
+      "data": "11/03/2022",
+      "transf": "20",
+      "category": {
+        "id": "1",
+        "name": "Pix"
+      },
+      "tipo": "positiva",
+      "id": 4
+    },
+    {
+      "data": "11/03/2022",
       "transf": "400",
       "category": {
         "id": "3",
         "name": "Saúde"
       },
-      "id": 2
-    },
-    {
-      "data": "10/03/2022",
-      "transf": "400",
-      "category": {
-        "id": "1",
-        "name": "Pix"
-      },
-      "id": 3
+      "id": 5
     },
     {
       "data": "11/03/2022",
-      "transf": "51",
+      "transf": "50",
       "category": {
-        "id": "1",
-        "name": "Pix"
+        "id": "2",
+        "name": "Venda"
       },
-      "id": 4
+      "id": 6
     }
   ],
   "categories_positivas": [

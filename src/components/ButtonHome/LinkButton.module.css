@@ -2,17 +2,20 @@
     width: 125px;
     height: 120px;
     border: rgba(8, 78, 119, 0.534);
-    background-color: rgb(255, 255, 255);
+    border-radius: 0px 10px 10px 0px;
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(5, 0, 92) 9%, rgb(9, 9, 121) 29%, rgb(0, 140, 255) 100%);
     
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
 
     font-size: 25px;
 }
 
 .btn:hover{
-    background-color: white;
+    color: black;
 }

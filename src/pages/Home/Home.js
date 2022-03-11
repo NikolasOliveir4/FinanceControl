@@ -135,7 +135,7 @@ function Home(){
                         <div>
 
                         { showNewTransf && (
-                            <div>
+                            <div className={styles.actionButtons}>
                                
                                 <button onClick={addType} className={styles.btn_transf}>
                                 Entrada

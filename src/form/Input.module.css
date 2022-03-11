@@ -8,6 +8,7 @@
 .form_control label{
     margin-bottom: .6em;
     font-weight: bold;
+    color: white;
 }
 
 .form_control input{
