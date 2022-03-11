@@ -7,21 +7,32 @@ article{
     font-weight: bold;
     
     align-items: center;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(253, 253, 253);
     margin: 20px;
+    border-radius: 8px;
 
     font-size: 20px;
     color: black;
 }
 
+.tipo{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: underline;
+    margin-left: 3px;
+}
 
+.data{
+    display: flex;
+    justify-content: center;
+}
 
 .valor_pos{
-    
+    margin-right: 3px;
     color: green;
 }
 .valor_neg{
-    
+    margin-right: 3px;
     color: red;
 }
 

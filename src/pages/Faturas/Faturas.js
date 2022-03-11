@@ -29,7 +29,7 @@ function Faturas(){
             setTransf(data)
         })
         .catch((err) => console.log(err))
-    }, [transf])
+    }, [])
 
     return(
         <div className={styles.faturas}>

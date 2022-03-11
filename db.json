@@ -1,5 +1,43 @@
 {
-  "transacoes": [],
+  "transacoes": [
+    {
+      "data": "10/03/2022",
+      "transf": "4000",
+      "category": {
+        "id": "2",
+        "name": "Venda"
+      },
+      "tipo": "positiva",
+      "id": 1
+    },
+    {
+      "data": "10/03/2022",
+      "transf": "400",
+      "category": {
+        "id": "3",
+        "name": "Saúde"
+      },
+      "id": 2
+    },
+    {
+      "data": "10/03/2022",
+      "transf": "400",
+      "category": {
+        "id": "1",
+        "name": "Pix"
+      },
+      "id": 3
+    },
+    {
+      "data": "11/03/2022",
+      "transf": "51",
+      "category": {
+        "id": "1",
+        "name": "Pix"
+      },
+      "id": 4
+    }
+  ],
   "categories_positivas": [
     {
       "id": 1,

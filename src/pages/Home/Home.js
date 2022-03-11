@@ -40,18 +40,12 @@ function Home(){
     
 
     function somarSaldo(){  
-
-        console.log(saldo)
         
 
         setSoma(saldo.map(a=> +a.transf).reduce(function(acumulador, atual){
             return acumulador + atual
         },0))
 
-        
-        
-
-        
       
     }
    

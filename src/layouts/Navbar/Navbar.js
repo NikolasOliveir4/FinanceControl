@@ -11,7 +11,9 @@ function Navbar(){
                
                 <Link className={styles.logo} to='/'>
                     
-                    <span>FinanceControl</span>
+                    <span>
+                        FinanceControl
+                        </span>
                 </Link>
                 
                

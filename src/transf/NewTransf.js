@@ -35,11 +35,26 @@ function ServiceForm({handleSubmit, btnText, e}){
         .catch((err) => console.log(err))
     }, [])
 
+
     function submit(e){
-        
+        setMessage('')
         e.preventDefault()
-        if(transf.category == null || transf.transf == null){
-            setMessage('Preencha todos os campos')
+        console.log(transf)
+        
+        if(transf.category.id < 3){
+            setTransf({...transf,
+            tipo: 'positiva'
+                
+            })
+        }
+        else{
+            setTransf({...transf,
+                tipo: 'negativa'
+                })
+        }
+        
+        if(transf.category == null || transf.transf == (null || 0) ){
+            setMessage('Preencha corretamente todos os campos')
             setType('error')    
         }
        else{
@@ -50,19 +65,22 @@ function ServiceForm({handleSubmit, btnText, e}){
  
 
     function handleChange(e){
+        
         setTransf({...transf,
             data: dataAtual,
             [e.target.name]: e.target.value},
             )
-             
+            
     }
-
+    
     function handleCategory(e){
         
         setTransf({...transf, category:{
             id: e.target.value,
             name: e.target.options[e.target.selectedIndex].text,
+            
             },
+            
         })
         
     }
@@ -78,9 +96,10 @@ function ServiceForm({handleSubmit, btnText, e}){
                 handleOnChange={handleChange}
             />  
 
-       
+            
             <Select name='category_id' placeholder='Tipo da transação' options={categories} handleOnChange={handleCategory} value={transf.category ? transf.category.id : ''}/>
             <SubmitButton text={btnText} />
+            <br/>
             {message && <Message type={type} msg={message} />}
         </form>
     )

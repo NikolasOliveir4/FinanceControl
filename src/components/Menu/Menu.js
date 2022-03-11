@@ -1,3 +1,7 @@
+import {AiOutlineHome, AiOutlineShoppingCart} from 'react-icons/ai'
+import {FaRegMoneyBillAlt} from 'react-icons/fa'
+import {BsGraphUp, BsPiggyBank, BsCreditCard2Back, BsFileText} from 'react-icons/bs'
+
 import { Link } from 'react-router-dom'
 
 import styles from './Menu.module.css'
@@ -8,38 +12,66 @@ function Menu(){
             <ul className={styles.menu}>
                 
                 <li className={styles.item}>
-                    
-                    <Link to="/"><button>HOME</button></Link>
+                    <Link to="/">
+                    <button>
+                    <AiOutlineHome /> HOME
+                    </button>
+                    </Link>
                 
                 </li>
                 <li className={styles.item}>
                    
-                    <Link to="/faturas"><button>FATURAS</button></Link>
+                    <Link to="/faturas">
+                        <button>
+                        <BsFileText /> FATURAS
+                        </button>
+                    </Link>
                     
                 </li>
                 <li className={styles.item}>
                     
-                    <Link to="/"><button>INVESTIMENTO</button></Link>
+                    <Link to="/">
+                    <button>
+                    <BsGraphUp /> INVESTIMENTOS
+                    </button>
+                    </Link>
                     
                 </li>
                 <li className={styles.item}>
                     
-                    <Link to="/"><button>POUPANÇA</button></Link>
+                    <Link to="/">
+                        <button>
+                        <BsPiggyBank /> POUPANÇA
+                        </button>
+                        
+                    </Link>
                     
+                </li>
+
+                <li className={styles.item}>
+                    <Link to="/">
+                        <button>
+                            <FaRegMoneyBillAlt /> EMPRÉSTIMOS
+                        </button>
+                    </Link>
                 </li>
                 <li className={styles.item}>
                     
-                    <Link to="/"><button>RECARGA RÁPIDA</button></Link>
+                    <Link to="/">
+                        <button>
+                        <BsCreditCard2Back /> CARTÃO
+                        </button>
+                    </Link>
                     
                 </li>
-                <li className={styles.item}>
-                   
-                    <Link to="/"><button>EMPRÉSTIMO</button></Link>
-                   
-                </li>
+
                 <li className={styles.item}>
                     
-                    <Link to="/"><button>CARTÕES</button></Link>
+                    <Link to="/">
+                        <button>
+                        <AiOutlineShoppingCart /> GASTOS
+                        </button>
+                    </Link>
                     
                 </li>
                
